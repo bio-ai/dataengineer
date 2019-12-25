@@ -8,3 +8,7 @@
 ```
 git clone https://github.com/ORG/REPO-NAME
 ```
+- Create Cloud Storage Bucket
+
+```gsutil mb -l (your_region) gs://(bucket_name)```
+

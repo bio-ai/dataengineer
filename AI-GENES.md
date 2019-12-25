@@ -16,4 +16,9 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```gsutil cp * gs://(bucket_name)```
 
+- Cloud SQL switch/use to database
+
+```use DATABASE-NAME;```
+
+
 

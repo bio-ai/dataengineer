@@ -20,5 +20,9 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```use DATABASE-NAME;```
 
+- Cloud SQL view/show tables
+
+```show tables```
+
 
 

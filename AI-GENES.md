@@ -2,7 +2,7 @@
 
 ## LA / Google Cloud Certified Professional Data Engineer
 
-### Importing Data
+### Cloud SQL / Importing Data
 
 - Clone repo to Cloud Shell
 ```
@@ -27,6 +27,12 @@ git clone https://github.com/ORG/REPO-NAME
 - Cloud SQL view/select rows of one table
 
 ```select * from TABLE-NAME;```
+
+### Cloud Datastore / Queries and Indexing
+
+- Create composite index in Cloud Datastore
+
+```gcloud datastore create-indexes index.yaml```
 
 
 

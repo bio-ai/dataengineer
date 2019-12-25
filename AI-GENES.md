@@ -24,5 +24,9 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```show tables```
 
+- Cloud SQL view/select rows of one table
+
+```select * from TABLE-NAME;```
+
 
 

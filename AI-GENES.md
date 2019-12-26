@@ -70,3 +70,8 @@ gcloud components install cbt```
 - List Bigtable table:
 
 ```cbt ls```
+
+- Add a Bigtable column family:
+
+```cbt createfamily my-table cf1```
+

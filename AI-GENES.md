@@ -59,4 +59,7 @@ git clone https://github.com/ORG/REPO-NAME
 ```gcloud components update
 gcloud components install cbt```
 
+- Configure cbt to use your project and instance via .cbtrc file:
+
+```echo -e "project = [PROJECT_ID]\ninstance = [INSTANCE_ID]" > ~/.cbtrc```
 

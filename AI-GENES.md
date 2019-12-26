@@ -66,3 +66,7 @@ gcloud components install cbt```
 - Create a Bigtable table:
 
 ```cbt createtable my-table```
+
+- List Bigtable table:
+
+```cbt ls```

@@ -48,5 +48,9 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```SELECT Title, Medium FROM MetObjects LIMIT 20;```
 
+- SQL SELECT example with WHERE conditional
+
+```SELECT Title, Medium, Link_Resource  FROM MetObjects WHERE Object_Begin_Date >= '2000' LIMIT 20;```
+
 
 

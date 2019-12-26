@@ -83,3 +83,7 @@ gcloud components install cbt```
 
 ```cbt set my-table r1 cf1:c1=test-value```
 
+- Bigtable: read command to read the data from table:
+
+```cbt read my-table```
+

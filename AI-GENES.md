@@ -52,5 +52,11 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```SELECT Title, Medium, Link_Resource  FROM MetObjects WHERE Object_Begin_Date >= '2000' LIMIT 20;```
 
+### Bigtable / Instance configuration
+
+- Install the cbt command in Google SDK
+
+```gcloud components update
+gcloud components install cbt```
 
 

@@ -44,5 +44,9 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```gcloud sql connect la-met --user=root```
 
+- SELECT example with LIMIT
+
+```SELECT Title, Medium FROM MetObjects LIMIT 20;```
+
 
 

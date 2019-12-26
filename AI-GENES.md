@@ -40,5 +40,9 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```gsutil cp * gs://la-sql-991```
 
+- Connect to Cloud SQL innstance
+
+```gcloud sql connect la-met --user=root```
+
 
 

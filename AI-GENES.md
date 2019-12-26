@@ -87,3 +87,36 @@ gcloud components install cbt```
 
 ```cbt read my-table```
 
+### Cloud Spanner / Hands On and viewing GCP Python example
+
+The below steps ran from Cloud Shell will create a Spanner instance and populate Singer and Album data for you.
+
+Link Google Cloud documentation to follow along with for the Python example:
+
+https://cloud.google.com/spanner/docs/getting-started/python/
+Clone the GitHub repository to run scripts, and browse to the correct directory:
+
+```git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+
+cd python-docs-samples/spanner/cloud-client```
+
+Create a Python environment and install dependencies:
+
+```virtualenv env
+source env/bin/activate
+pip install -r requirements.txt```
+
+Create a Spanner instance named test-instance:
+```
+gcloud spanner instances create test-instance --config=regional-us-central1 --description="Test Instance" --nodes=1
+```
+Create a database and insert data using the Python scripts from our GitHub clone:
+
+```python snippets.py test-instance --database-id example-db create_database
+
+python snippets.py test-instance --database-id example-db insert_data
+```
+Run a query to read the values of all columns from the Albums table:
+
+```gcloud spanner databases execute-sql example-db --instance=test-instance --sql='SELECT SingerId, AlbumId, AlbumTitle FROM Albums'```
+

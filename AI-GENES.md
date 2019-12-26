@@ -63,3 +63,6 @@ gcloud components install cbt```
 
 ```echo -e "project = [PROJECT_ID]\ninstance = [INSTANCE_ID]" > ~/.cbtrc```
 
+- Create a Bigtable table:
+
+```cbt createtable my-table```

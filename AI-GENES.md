@@ -34,5 +34,11 @@ git clone https://github.com/ORG/REPO-NAME
 
 ```gcloud datastore create-indexes index.yaml```
 
+### Cloud SQL Lab
+
+- Copy files from local dir to google storage
+
+```gsutil cp * gs://la-sql-991```
+
 
 

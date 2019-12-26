@@ -75,7 +75,11 @@ gcloud components install cbt```
 
 ```cbt createfamily my-table cf1```
 
-- List Bigtable column family
+- List Bigtable column family:
 
 ```cbt ls my-table```
+
+- Bigtable: Add value to row 1, using column family cf1 and column qualifier c1:
+
+```cbt set my-table r1 cf1:c1=test-value```
 

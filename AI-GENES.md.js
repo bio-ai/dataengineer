@@ -1,22 +1,22 @@
-// Simple PubSub Exercise Sequence:
+// # Simple PubSub Exercise Sequence:
 
-// Create a topic called my-topic:
+// - Create a topic called my-topic:
 
 // gcloud pubsub topics create my-topic
 
-// Create a subscription to topic my-topic:
+// - Create a subscription to topic my-topic:
 
 // gcloud pubsub subscriptions create --topic my-topic mySub1
 
-// Publish a message to your topic:
+// - Publish a message to your topic:
 
 // gcloud pubsub topics publish my-topic --message "hello"
 
-// Retrieve message with your subscription, acknowledge receipt and remove message from the queue:
+// - Retrieve message with your subscription, acknowledge receipt and remove message from the queue:
 
 // gcloud pubsub subscriptions pull --auto-ack mySub1
 
-// Cancel subscription:
+// - Cancel subscription:
 
 // gcloud pubsub subscriptions delete mySub1
 

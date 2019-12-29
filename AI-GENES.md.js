@@ -37,6 +37,7 @@
 // gcloud pubsub subscriptions create --topic sandiego mySub1
 
 // Run script to download sensor data:
+// gsutil cp gs://la-gcloud-course-resources/sandiego/sensor_obs2008.csv.gz .
 
 // ./download_data.sh
 

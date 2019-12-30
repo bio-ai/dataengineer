@@ -13,20 +13,22 @@
 // $ > gsutil mb gs://aicolab-dataflow-ex1
 // SI: Creating gs://aicolab-dataflow-ex1/...
 
-// Create a topic and publish messages:
-
-// cd ~/googledataengineer/courses/streaming/publish
-
-// gcloud pubsub topics create sandiego
-
-// ./download_data.sh
-
+// - Step 3 - Create a topic and publish messages:
+// $ > gcloud pubsub topics create sandiego
+// SI: ERROR: Failed to create topic [projects/aicolab/topics/sandiego]: Resource already exists in the project (resource=sandiego).
+// SI: Created topic [projects/aicolab/topics/sandiego].
+// // cd ~/googledataengineer/courses/streaming/publish
+// cd courses/streaming/publish
+// // ./download_data.sh
 // sudo pip install -U google-cloud-pubsub
 
 // ./send_sensor_data.py --speedFactor=60 --project=$DEVSHELL_PROJECT_ID
+// SI: Traceback (most recent call last):
+//   File "./send_sensor_data.py", line 22, in <module>
+//   from google.cloud import pubsub
+//   ImportError: No module named google.cloud <<-----------  Stopped here / Dec 30, 2019
 
 // Open a new Cloud Shell tab
-
 // Browse to the Dataflow directory and run the script to create a pipeline, passing along our project ID, storage bucket, and Average Speeds file to construct the pipeline.
 
 // cd ~/googledataengineer/courses/streaming/process/sandiego

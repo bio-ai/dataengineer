@@ -3,12 +3,16 @@
 
 // The command line reference for what we are demonstrating is below.
 
-// - Create BigQuery dataset for processing pipeline output:
+// - Step 1 - Create BigQuery dataset for processing pipeline output:
 // $ > bq mk --dataset $DEVSHELL_PROJECT_ID:demos
+// SI: Dataset 'aicolab:demos' successfully created. / Dec 30, 2019
 
-// Create Cloud Storage bucket for Dataflow staging:
+// - Step 2 - Create Cloud Storage bucket for Dataflow staging:
+// $ > gsutil mb gs://$DEVSHELL_PROJECT_ID
+// SI: CommandException: "mb" command does not support provider-only URLs.
+// $ > gsutil mb gs://aicolab-dataflow-ex1
+// SI: Creating gs://aicolab-dataflow-ex1/...
 
-// gsutil mb gs://$DEVSHELL_PROJECT_ID
 // Create a topic and publish messages:
 
 // cd ~/googledataengineer/courses/streaming/publish

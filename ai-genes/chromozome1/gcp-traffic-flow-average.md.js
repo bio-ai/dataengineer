@@ -1,10 +1,11 @@
+// # GCP Sandiego traffic > Dataflow > BQ speed average
 // streaming ingest of traffic sensor data from the previous section, and run it through a Dataflow pipeline to calculate average speeds and output it to BigQuery.
 
 // The command line reference for what we are demonstrating is below.
 
-// Create BigQuery dataset for processing pipeline output:
+// - Create BigQuery dataset for processing pipeline output:
+// $ > bq mk --dataset $DEVSHELL_PROJECT_ID:demos
 
-// bq mk --dataset $DEVSHELL_PROJECT_ID:demos
 // Create Cloud Storage bucket for Dataflow staging:
 
 // gsutil mb gs://$DEVSHELL_PROJECT_ID

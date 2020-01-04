@@ -67,18 +67,20 @@
 // Job name is JOB_NAME (census_single_1)
 // Output path is our Cloud storage bucket/job_name
 // Training and evaluation/test data is in our Cloud Storage bucket
-// gcloud ai-platform jobs submit training $JOB_NAME \
-// --job-dir $OUTPUT_PATH \
-// --runtime-version 1.4 \
-// --module-name trainer.task \
-// --package-path trainer/ \
-// --region $REGION \
-// -- \
-// --train-files $TRAIN_DATA \
-// --eval-files $EVAL_DATA \
-// --train-steps 1000 \
-// --eval-steps 100 \
-// --verbosity DEBUG
+
+gcloud ai-platform jobs submit training $JOB_NAME \
+--job-dir $OUTPUT_PATH \
+--runtime-version 1.4 \
+--module-name trainer.task \
+--package-path trainer/ \
+--region $REGION \
+-- \
+--train-files $TRAIN_DATA \
+--eval-files $EVAL_DATA \
+--train-steps 1000 \
+--eval-steps 100 \
+--verbosity DEBUG
+
 // Can view streaming logs/output with gcloud ai-platform jobs stream-logs $JOB_NAME
 // When complete, inspect output path with gsutil ls -r $OUTPUT_PATH
 // Run distributed training on AI Platform

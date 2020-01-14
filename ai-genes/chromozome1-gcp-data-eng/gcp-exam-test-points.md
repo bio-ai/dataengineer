@@ -1,32 +1,26 @@
-Course Introduction
-Getting Started
-Course Introduction
-00:05:48
-About the Training Architect
-00:00:41
-Course Updated for March 2019 Refresh
-00:01:09
-Intro to the Data Dossier - Interactive Study Guide
-00:04:53
-Course and Exam Overview
-00:05:06
-What is a Data Engineer
-00:03:19
-Foundational Concepts
-Data Lifecycle
-00:11:41
-Batch and Streaming Data
-00:05:28
-Cloud Storage as Staging Ground
-00:07:16
-Database Types
-00:07:21
-Monitoring Unmanaged Databases
-00:06:04
-Practice Exam / Quiz: Google Cloud Data Engineer - Foundational Concepts
-00:30:00
-Managed Databases
-Cloud SQL
+# Google Cloud Certified Professional Data Engineer
+
+## Course Introduction
+
+### Getting Started
+Course Introduction 00:05:48
+About the Training Architect 00:00:41
+Course Updated for March 2019 Refresh 00:01:09
+Intro to the Data Dossier Interactive Study Guide 00:04:53
+Course and Exam Overview 00:05:06
+What is a Data Engineer 00:03:19
+
+### Foundational Concepts
+Data Lifecycle 00:11:41
+Batch and Streaming Data 00:05:28
+Cloud Storage as Staging Ground 00:07:16
+Database Types 00:07:21
+Monitoring Unmanaged Databases 00:06:04
+Practice Exam / Quiz: Google Cloud Data Engineer - Foundational Concepts 00:30:00
+
+## Managed Databases
+
+### Cloud SQL
 Choosing a Managed Database
 00:07:15
 Cloud SQL Basics

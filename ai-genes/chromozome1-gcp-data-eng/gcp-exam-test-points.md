@@ -78,84 +78,62 @@ Hands-On Lab: Run a Pyspark Job on Cloud Dataproc using Google Cloud Storage 00:
 ## Analyzing Data and Enabling Machine Learning
 
 ### BigQuery
-BigQuery Overview
-00:14:43
-Interacting with BigQuery
-00:22:10
-Load and Export Data
-00:19:02
-Optimize for Performance and Costs
-00:15:29
-Streaming Insert Example
-00:08:38
-BigQuery Logging and Monitoring
-00:08:18
-BigQuery Best Practices
-00:14:53
-QUIZ: BIGQUERY
-00:30:00
+BigQuery Overview 00:14:43
+Interacting with BigQuery 00:22:10
+Load and Export Data 00:19:02
+Optimize for Performance and Costs 00:15:29
+Streaming Insert Example 00:08:38
+BigQuery Logging and Monitoring 00:08:18
+BigQuery Best Practices 00:14:53
+QUIZ: BIGQUERY 00:30:00
 Hands-On Lab: Create Streaming Data Pipeline with Cloud Pub/Sub, Dataflow, and BigQuery
-Machine Learning
-What is Machine Learning?
-00:14:45
-Working with Neural Networks
-00:15:08
-Preventing Overfitted Training Data
-00:07:40
-AI Platform (Formerly Cloud ML Engine)
-GCP Machine Learning Services
-00:05:57
-AI Platform Overview
-00:16:52
-AI Platform Hands On Part 1
-00:15:04
-AI Platform Hands On Part 2
-00:15:37
-Pretrained Machine Learning API's
-Pre-trained ML API's
-00:09:10
-Vision API Demo
-00:13:28
-QUIZ: MACHINE LEARNING ON GOOGLE CLOUD
-00:30:00
-Datalab
-Datalab Overview
-00:08:45
-Datalab Demo
-00:17:48
-Data Visualization
-Cleaning Your Data with Dataprep
-What is Dataprep?
-00:08:58
-Dataprep Demo Part 1
-00:14:15
-Dataprep Demo Part 2
-00:16:32
-Dataprep Demo Part 3
-00:11:48
-Building Data Visualizations with Data Studio
-Data Studio Introduction
-00:09:31
-Data Studio Demo
-00:28:19
-QUIZ: DATALAB/DATAPREP/DATA STUDIO
-00:30:00
-Monitoring and Orchestration
-Orchestrating Data Workflows with Cloud Composer
-Cloud Composer Overview
-00:08:26
-Hands On - Cloud Composer
-00:15:25
-Course Conclusion
-Final Steps
-Additional Study Resources
-00:02:56
-Additional Hands On and Practice Resources
-00:04:43
-What's Next After Certification?
-00:03:41
-Get Recognized!
-00:01:01
-landscape
-Practice Exam / Quiz: Data Engineer - Final Exam
-02:00:00
+
+### Machine Learning
+What is Machine Learning? 00:14:45
+Working with Neural Networks 00:15:08
+Preventing Overfitted Training Data 00:07:40
+
+### AI Platform (Formerly Cloud ML Engine)
+GCP Machine Learning Services 00:05:57
+AI Platform Overview 00:16:52
+AI Platform Hands On Part 1 00:15:04
+AI Platform Hands On Part 2 00:15:37
+
+### Pretrained Machine Learning API's
+Pre-trained ML API's 00:09:10
+Vision API Demo 00:13:28
+QUIZ: MACHINE LEARNING ON GOOGLE CLOUD 00:30:00
+
+### Datalab
+Datalab Overview 00:08:45
+Datalab Demo 00:17:48
+
+## Data Visualization
+
+### Cleaning Your Data with Dataprep
+What is Dataprep? 00:08:58
+Dataprep Demo Part 1 00:14:15
+Dataprep Demo Part 2 00:16:32
+Dataprep Demo Part 3 00:11:48
+
+### Building Data Visualizations with Data Studio
+Data Studio Introduction 00:09:31
+Data Studio Demo 00:28:19
+QUIZ: DATALAB/DATAPREP/DATA STUDIO 00:30:00
+
+## Monitoring and Orchestration
+
+### Orchestrating Data Workflows with Cloud Composer
+Cloud Composer Overview 00:08:26
+Hands On - Cloud Composer 00:15:25
+
+## Course Conclusion
+
+### Final Steps
+Additional Study Resources 00:02:56
+Additional Hands On and Practice Resources 00:04:43
+What's Next After Certification? 00:03:41
+Get Recognized! 00:01:01
+
+## Practice Exam
+Quiz: Data Engineer - Final Exam 02:00:00

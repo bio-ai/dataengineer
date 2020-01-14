@@ -135,5 +135,5 @@ Additional Hands On and Practice Resources 00:04:43
 What's Next After Certification? 00:03:41
 Get Recognized! 00:01:01
 
-## Practice Exam
+### Practice Exam
 Quiz: Data Engineer - Final Exam 02:00:00

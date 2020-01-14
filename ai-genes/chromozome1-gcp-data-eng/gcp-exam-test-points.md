@@ -21,93 +21,63 @@ Practice Exam / Quiz: Google Cloud Data Engineer - Foundational Concepts 00:30:0
 ## Managed Databases
 
 ### Cloud SQL
-Choosing a Managed Database
-00:07:15
-Cloud SQL Basics
-00:05:07
-Cloud SQL Hands On
-00:12:46
-Importing Data
-00:12:10
-SQL Query Best Practices
-00:02:48
-Hands-On Lab: Managing Google Cloud SQL Instances
-00:30:00
-Hands-On Lab: Working with Data in Google Cloud SQL
-00:30:00
-Datastore
-Datastore Overview
-00:09:21
-Data Organization
-00:16:03
-Queries and Indexing
-00:11:29
-Data Consistency
-00:06:18
-Hands-On Lab: Exploring Cloud Firestore in Datastore Mode
-00:30:00
-Bigtable
-Bigtable Overview
-00:07:44
-Instance Configuration
-00:18:11
-Data Organization
-00:05:28
-Schema Design
-00:08:37
-Cloud Spanner
-Cloud Spanner Overview
-00:11:17
-Data Organization and Schema
-00:07:12
-Hands On and Viewing Examples
-00:11:46
-QUIZ: Managed Databases on Google Cloud
-00:30:00
-Hands-On Lab: Setting Up for Google Cloud Spanner
-00:30:00
-Data Engineering Architecture
-Real Time Messaging with Cloud Pub/Sub
-Streaming Data Challenges
-00:08:24
-Cloud Pub/Sub Overview
-00:12:28
-Pub/Sub Hands On
-00:18:24
-Connecting Kafka to GCP
-00:05:13
-Monitoring Subscriber Health
-00:09:30
-Data Pipelines with Cloud Dataflow
-Data Processing Pipelines
-00:05:24
-Cloud Dataflow Overview
-00:10:09
-Key Concepts
-00:09:43
-Template Hands On
-00:11:08
-Streaming Ingest Pipeline Hands On
-00:20:03
-Additional Best Practices
-00:10:11
-Dataproc
-Dataproc Overview
-00:10:48
-Configure Dataproc Cluster and Submit Job – Part 1
-00:15:35
-Configure Dataproc Cluster and Submit Job – Part 2
-00:14:35
-Migrating and Optimizing for Google Cloud
-00:09:49
-Best Practices for Cluster Performance
-00:05:42
-QUIZ: Data Ingest and Processing
-00:30:00
-Hands-On Lab: Run a Pyspark Job on Cloud Dataproc using Google Cloud Storage
-00:30:00
-Analyzing Data and Enabling Machine Learning
-BigQuery
+Choosing a Managed Database 00:07:15
+Cloud SQL Basics 00:05:07
+Cloud SQL Hands On 00:12:46
+Importing Data 00:12:10
+SQL Query Best Practices 00:02:48
+Hands-On Lab: Managing Google Cloud SQL Instances 00:30:00
+Hands-On Lab: Working with Data in Google Cloud SQL 00:30:00
+
+### Datastore
+Datastore Overview 00:09:21
+Data Organization 00:16:03
+Queries and Indexing 00:11:29
+Data Consistency 00:06:18
+Hands-On Lab: Exploring Cloud Firestore in Datastore Mode 00:30:00
+
+### Bigtable
+Bigtable Overview 00:07:44
+Instance Configuration 00:18:11
+Data Organization 00:05:28
+Schema Design 00:08:37
+
+### Cloud Spanner
+Cloud Spanner Overview 00:11:17
+Data Organization and Schema 00:07:12
+Hands On and Viewing Examples 00:11:46
+QUIZ: Managed Databases on Google Cloud 00:30:00
+Hands-On Lab: Setting Up for Google Cloud Spanner 00:30:00
+
+## Data Engineering Architecture
+
+### Real Time Messaging with Cloud Pub/Sub
+Streaming Data Challenges 00:08:24
+Cloud Pub/Sub Overview 00:12:28
+Pub/Sub Hands On 00:18:24
+Connecting Kafka to GCP 00:05:13
+Monitoring Subscriber Health 00:09:30
+
+### Data Pipelines with Cloud Dataflow
+Data Processing Pipelines 00:05:24
+Cloud Dataflow Overview 00:10:09
+Key Concepts 00:09:43
+Template Hands On 00:11:08
+Streaming Ingest Pipeline Hands On 00:20:03
+Additional Best Practices 00:10:11
+
+### Dataproc
+Dataproc Overview 00:10:48
+Configure Dataproc Cluster and Submit Job – Part 1 00:15:35
+Configure Dataproc Cluster and Submit Job – Part 2 00:14:35
+Migrating and Optimizing for Google Cloud 00:09:49
+Best Practices for Cluster Performance 00:05:42
+QUIZ: Data Ingest and Processing 00:30:00
+Hands-On Lab: Run a Pyspark Job on Cloud Dataproc using Google Cloud Storage 00:30:00
+
+## Analyzing Data and Enabling Machine Learning
+
+### BigQuery
 BigQuery Overview
 00:14:43
 Interacting with BigQuery

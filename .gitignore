@@ -1,3 +1,5 @@
+tests/*
+
 *.pyc
 courses/machine_learning/cloudmle/.ipynb_checkpoints/*
 .DS_Store
